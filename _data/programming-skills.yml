@@ -1,0 +1,19 @@
+- name: PHP MySQL
+  percentage: 92
+  color: danger
+
+- name: Java
+  percentage: 53
+  color:
+
+- name: JavaScript
+  percentage: 79
+  color: warning
+
+- name: HTML5/CSS3
+  percentage: 98
+  color: info
+
+- name: Python
+  percentage: 33
+  color: dark
