@@ -21,6 +21,7 @@ Apart from coding, I also maintain a blog - you can find my articles on my websi
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python)
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash)
 ![](https://img.shields.io/badge/Tools-MySQL-informational?style=flat&logo=mysql)
+![](https://img.shields.io/badge/Tools-SQLite3-informational?style=flat&logo=sqlite)
 ![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git)
 
 ## &#x1f4c8; GitHub Stats
