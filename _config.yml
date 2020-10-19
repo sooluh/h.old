@@ -1,8 +1,8 @@
 # Site settings
 title: Suluh Sulistiawan
 description: >- # this means to ignore newlines until "baseurl:"
-  Always code as if the guy who ends up maintaining your code
-  will be a violent psychopath who knows where you live.
+  All knowledge is easy to learn, but difficult to understand.
+  Like understanding a lover who is sometimes unclear what she wants!
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://suluh.my.id" # the base hostname & protocol for your site, e.g. http://example.com
 repository: sProDev/suluh.my.id
@@ -24,7 +24,7 @@ author:
   email         : suluh.webdevelopers@hotmail.com
   facebook      : suluh.sulistiawan
   github        : sProDev
-# gitlab        : your_username
+  gitlab        : SLuh
   instagram     : suluh_s
   linkedin      : suluh-sulistiawan
 # medium        : your_username
