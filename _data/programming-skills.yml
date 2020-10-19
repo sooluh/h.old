@@ -17,3 +17,7 @@
 - name: Python
   percentage: 33
   color: dark
+
+- name: NodeJS
+  percentage: 43
+  color: primary
