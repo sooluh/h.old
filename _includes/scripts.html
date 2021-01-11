@@ -14,7 +14,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script> new WOW().init(); </script>
 
+<!-- Lazysizes -->
 <script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js></script>
 
-<!-- Card Animation jQuery -->
-<script src="{{ '/assets/js/card-animation.js' | relative_url }}"></script>
+<!-- Initialize all tooltips -->
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>

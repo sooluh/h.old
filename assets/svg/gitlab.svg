@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2498.248"
+   height="2301.3123"
+   viewBox="0 0 255.8206 235.62243"
+   preserveAspectRatio="xMinYMin meet"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="gitlab-logo.svg"
+   inkscape:version="1.0.1 (1.0.1+r74)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="701"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.078533335"
+     inkscape:cx="496.07802"
+     inkscape:cy="60.498947"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <path
+     d="M 127.9104,235.65438 175.0144,90.684375 H 80.805398 L 127.9094,235.65438 Z"
+     fill="#e24329"
+     id="path2" />
+  <path
+     d="M 127.9104,235.65338 80.805398,90.683375 h -66.014 z"
+     fill="#fc6d26"
+     id="path4" />
+  <path
+     d="M 14.791398,90.683375 0.4773978,134.73938 a 9.752,9.752 0 0 0 3.542,10.903 L 127.9104,235.65438 14.790398,90.684375 Z"
+     fill="#fca326"
+     id="path6" />
+  <path
+     d="m 14.791398,90.684375 h 66.014 l -28.369,-87.315 c -1.46,-4.493 -7.816,-4.492 -9.275,0 z"
+     fill="#e24329"
+     id="path8" />
+  <path
+     d="m 127.9104,235.65338 47.104,-144.970005 h 66.015 l -113.12,144.970005 z"
+     fill="#fc6d26"
+     id="path10" />
+  <path
+     d="m 241.0294,90.683375 14.314,44.056005 a 9.752,9.752 0 0 1 -3.543,10.903 l -123.89,90.012 113.119,-144.970005 z"
+     fill="#fca326"
+     id="path12" />
+  <path
+     d="m 241.0294,90.684375 h -66.015 l 28.37,-87.315 c 1.46,-4.493 7.816,-4.492 9.275,0 z"
+     fill="#e24329"
+     id="path14" />
+</svg>

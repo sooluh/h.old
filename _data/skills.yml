@@ -1,0 +1,140 @@
+- title: Languages
+  list:
+    - name: PHP
+      icon: /assets/svg/php.svg
+      foreground: '000000'
+      background: 8993be
+    - name: Java
+      icon: /assets/svg/java.svg
+      foreground: '000000'
+      background: f89820
+    - name: JavaScript
+      icon: /assets/svg/javascript.svg
+      foreground: '000000'
+      background: f0db4f
+    - name: TypeScript
+      icon: /assets/svg/typescript.svg
+      foreground: '000000'
+      background: 007acc
+
+- title: Front End
+  list:
+    - name: HTML5
+      icon: /assets/svg/html5.svg
+      foreground: '000000'
+      background: f06529
+    - name: CSS3
+      icon: /assets/svg/css3.svg
+      foreground: ffffff
+      background: 2965f1
+    - name: SCSS
+      icon: /assets/svg/sass.svg
+      foreground: '000000'
+      background: CC6699
+    - name: Bootstrap
+      icon: /assets/svg/bootstrap.svg
+      foreground: ffffff
+      background: 563d7c
+
+- title: Back End
+  list:
+    - name: CodeIgniter
+      icon: /assets/svg/codeigniter.svg
+      foreground: '000000'
+      background: dd4814
+    - name: Firebase
+      icon: /assets/svg/firebase.svg
+      foreground: '000000'
+      background: FFCB2B
+    - name: Express.js
+      icon: /assets/svg/express.svg
+      foreground: ffffff
+      background: "303030"
+
+- title: Tools
+  list:
+    - name: Visual Studio Code
+      icon: /assets/svg/vscode.svg
+      foreground: '000000'
+      background: 0078d7
+    - name: GNU Bash
+      icon: /assets/svg/bash.svg
+      foreground: '000000'
+      background: 4eaa25
+    - name: Git
+      icon: /assets/svg/git.svg
+      foreground: '000000'
+      background: f34f29
+    - name: GitHub
+      icon: /assets/svg/github.svg
+      foreground: ffffff
+      background: 211F1F
+    - name: GitLab
+      icon: /assets/svg/gitlab.svg
+      foreground: '000000'
+      background: fc6d26
+
+- title: Infrastructures
+  list:
+    - name: Ubuntu Server
+      icon: /assets/svg/ubuntu.svg
+      foreground: '000000'
+      background: DD4814
+    - name: Github Pages
+      icon: /assets/svg/github.svg
+      foreground: ffffff
+      background: 211F1F
+    - name: Vercel
+      icon: /assets/svg/vercel.svg
+      foreground: ffffff
+      background: "000000"
+    - name: Netlify
+      icon: /assets/svg/netlify.svg
+      foreground: '000000'
+      background: 00AD9F
+    - name: Firebase Hosting
+      icon: /assets/svg/firebase.svg
+      foreground: '000000'
+      background: FFCB2B
+
+- title: Database
+  list:
+    - name: MySQL
+      icon: /assets/svg/mysql.svg
+      foreground: ffffff
+      background: 00758F
+    - name: SQLite3
+      icon: /assets/svg/sqlite.svg
+      foreground: '000000'
+      background: 0f80cc
+    - name: RethinkDB
+      icon: /assets/svg/rethinkdb.svg
+      foreground: ffffff
+      background: "204956"
+    - name: MongoDB
+      icon: /assets/svg/mongodb.svg
+      foreground: '000000'
+      background: 6cac48
+
+- title: Tried but rarely
+  list:
+    - name: Laravel
+      icon: /assets/svg/laravel.svg
+      foreground: '000000'
+      background: ff2d20
+    - name: Python
+      icon: /assets/svg/python.svg
+      foreground: '000000'
+      background: FFE052
+    - name: Vue.js
+      icon: /assets/svg/vue.svg
+      foreground: '000000'
+      background: 41b883
+    - name: React
+      icon: /assets/svg/react.svg
+      foreground: '000000'
+      background: 53c1de
+    - name: Next.js
+      icon: /assets/svg/next.svg
+      foreground: ffffff
+      background: "000000"

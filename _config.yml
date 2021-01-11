@@ -1,67 +1,82 @@
-# Site settings
+### Site Settings ###
 title: Suluh Sulistiawan
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   All knowledge is easy to learn, but difficult to understand.
   Like understanding a lover who is sometimes unclear what she wants!
-baseurl: ""  # the subpath of your site, e.g. /blog
-url: "https://suluh.my.id" # the base hostname & protocol for your site, e.g. http://example.com
-repository: sProDev/suluh.my.id
+baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository: sProDev/suluh.my.id # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
+### Plugins ###
+plugins:
+  - jemoji
 
-# Build settings
-markdown: kramdown
-# plugins:
-# - jekyll-feed
+### Navbar Settings ###
+nav_exclude: # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
 
-
-# Author Info
+### Author Info ###
 author:
-  name          : Suluh Sulistiawan
-  image         : /assets/img/avatar.jpg
-  bio: All knowledge is easy to learn, but difficult to understand. Like understanding a lover who is sometimes unclear what she wants!
-# behance       : your_username
-# dribbble      : your_username
-  email         : suluh.webdevelopers@hotmail.com
-  facebook      : suluh.sulistiawan
-  github        : sProDev
-  gitlab        : SLuh
-  instagram     : suluh_s
-  linkedin      : suluh-sulistiawan
-# medium        : your_username
-# soundcloud    : your_username
-# spotify       : your_username
-# stackoverflow : your_user_id
-  tumblr        : imgaguna.tumblr.com
-# twitch        : your_username
-  twitter       : suluh_s
-  telegram      : suluh_s
-# vimeo         : your_username
-  youtube       : c/SDeveloper
+  name: Suluh Sulistiawan
+  nick: Suluh
+  image: https://github.com/sProDev.png
+  #behance: your_username
+  #dribbble: your_username
+  email: suluh.webdevelopers@hotmail.com
+  facebook: suluh.sulistiawan
+  github: sProDev
+  gitlab: SLuh
+  instagram: suluh_s
+  #kaggle: your_username
+  linkedin: suluh-sulistiawan
+  #medium: your_username
+  #soundcloud: your_username
+  #spotify: your_username
+  #stackoverflow: your_user_id
+  tumblr: katamasker.tumblr.com
+  #twitch: your_username
+  twitter: suluh_s
+  #vimeo: your_username
+  telegram: suluh_s
+  youtube: c/SDeveloper
+  #keybase: your_username
 
-# Collections
+### Posts ###
+permalink: /post/:title
+
+### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
 
+### Disqus ###
+disqus:
+  shortname: suluh # Your website Shortname on disqus
 
-# Default values for collections
+### Analytics ###
+analytics:
+  enabled: false # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+### Defaults for collections ###
 defaults:
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false # Set to true to enable disqus comments
 
-
-# Posts default Permalink
-permalink: articles/:title
-
-
-# Exclude from processing.
+### Exclude from processing ###
 exclude:
-- README.md
-- CONTRIBUTING.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

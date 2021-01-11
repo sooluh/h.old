@@ -1,0 +1,9 @@
+<div class="col-lg mb-4 mb-lg-0">
+    <h2>Basic Skills & Knowledge</h2>
+    {% for skills in site.data.skills %}
+        <h5 class="mt-4 text-muted">{{ skills.title }}</h5>
+        {% for skill in skills.list %}
+            <button class="my-1 btn btn-sm" style="background-color: #{{ skill.background }}; border-color: #{{ skill.background }}; color: #{{ skill.foreground }}; cursor: default;">{{ skill.name }}</button>
+        {% endfor %}
+    {% endfor %}
+</div>

@@ -1,0 +1,29 @@
+<div class="wow animated fadeIn" data-wow-delay=".15s">
+    {%- if (project.external_url == "javascript:void(0)") or (project.external_url == "#") -%}
+        <a href="javascript:void(0)" class="project card text-dark">
+    {%- elsif (project.external_url) or (project_type == "remote") -%}
+        <a href="{{ project_url }}" target="_blank" class="project card text-dark">
+    {%- else -%}
+        <a href="{{ project_url }}" class="project card text-dark">
+    {%- endif -%}
+    {%- if project_img -%}
+        <img id="{{ project_id }}-img" class="card-img-top lazyload" src="{{ '/assets/svg/loading.svg' | relative_url }}" data-src="{{ project_img }}" data-srcset="{{ project_img }}, {{ project_img }} 1.5x, {{ project_img }} 2x" data-sizes="auto" alt="{{ project_name }}" />
+    {%- endif -%}
+    <div class="card-body">
+        <h5 id="{{ project_id }}-name" class="card-title">
+            {%- if project_type == "remote" -%}
+                <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i>&nbsp;
+            {%- endif -%}
+            {{ project_name }}
+        </h5>
+        <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
+        {%- if project_type != "remote" -%}
+            <p id="{{ project_id }}-tools" class="card-text">
+            {%- for tool in project_tools -%}
+                <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
+            {%- endfor -%}
+        </p>
+    {%- endif -%}
+    </div>
+    </a>
+</div>
