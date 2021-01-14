@@ -1,0 +1,19 @@
+---
+label: Project Template
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: list
+  name: tools
+  label: tools
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: external_url
+  label: external_url
