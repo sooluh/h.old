@@ -6,11 +6,12 @@ webhook_url:
 sections:
   - type: heading
     label: Content
-  - type: jekyll-pages
+  - type: directory
+    path: pages
     label: Pages
     create: documents
     match: "**/*"
-    exclude: index.md
+    exclude: {/pages/404.html,/pages/about.md,/pages/blog.html,/pages/index.md,/pages/projects.html,/pages/tags.html}
   - type: jekyll-posts
     label: Posts
     create: all
@@ -24,9 +25,6 @@ sections:
   - type: document
     label: Skills
     path: _data/skills.yml
-  - type: document
-    label: Social Media
-    path: _data/social-media.yml
   - type: document
     label: Timeline
     path: _data/timeline.yml
