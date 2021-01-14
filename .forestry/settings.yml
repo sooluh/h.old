@@ -2,45 +2,50 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url:
+webhook_url: 
 sections:
-  - type: heading
-    label: Content
-  - type: directory
-    path: pages
-    label: Pages
-    create: documents
-    match: "**/*"
-    exclude: {/pages/404.html,/pages/about.md,/pages/blog.html,/pages/index.md,/pages/projects.html,/pages/tags.html}
-  - type: jekyll-posts
-    label: Posts
-    create: all
-  - type: directory
-    path: _projects
-    label: Projects
-    create: all
-    match: "**/*"
-  - type: heading
-    label: Configuration
-  - type: document
-    label: Skills
-    path: _data/skills.yml
-  - type: document
-    label: Timeline
-    path: _data/timeline.yml
+- type: heading
+  label: Content
+- type: directory
+  path: pages
+  label: Pages
+  create: documents
+  match: "**/*"
+  exclude:
+    "/pages/404.html": 
+    "/pages/about.md": 
+    "/pages/index.md": 
+    "/pages/blog.html": 
+    "/pages/tags.html": 
+    "/pages/projects.html": 
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: heading
+  label: Configuration
+- type: document
+  path: _data/skills.yml
+  label: Skills
+- type: document
+  path: _data/timeline.yml
+  label: Timeline
 upload_dir: assets/img
 public_path: "/assets/img"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
-    - JEKYLL_ENV=staging
+  - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command:
-    bundle exec jekyll serve --drafts --unpublished --future
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     -d _site
