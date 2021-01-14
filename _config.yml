@@ -9,12 +9,13 @@ repository: sProDev/suluh.my.id # Change to <your-username>/<your-username>.gith
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-minifier
 
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
+  - tags.html
+  - 404.html
+  - index.md
 
 ### Author Info ###
 author:
@@ -39,17 +40,17 @@ author:
   twitter: suluh_s
   #vimeo: your_username
   telegram: suluh_s
-  youtube: c/SDeveloper
+  youtube: SDeveloper
   #keybase: your_username
 
 ### Posts ###
-permalink: /post/:title
+permalink: /read/:title
 
 ### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /project/:name
 
 ### Disqus ###
 disqus:
@@ -72,7 +73,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false # Set to true to enable disqus comments
+      comments: true # Set to true to enable disqus comments
+
+### Jekyll Minifier ###
+jekyll-minifier:
+  preserve_php: true
+  remove_intertag_spaces: true
+  compress_javascript: true
 
 ### Exclude from processing ###
 exclude:
