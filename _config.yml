@@ -4,7 +4,7 @@ description: >-
   All knowledge is easy to learn, but difficult to understand.
   Like understanding a lover who is sometimes unclear what she wants!
 baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository: sProDev/suluh.my.id # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+# repository: sProDev/suluh.my.id # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 
 ### Plugins ###
 plugins:
